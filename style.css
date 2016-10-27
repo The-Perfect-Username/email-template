@@ -39,6 +39,7 @@ body {
 #email-footer p {
     font-size: 0.8em;
     margin: 0;
+    padding: 0 20px 0 20px;
 }
 
 button.btn {
@@ -98,3 +99,11 @@ li.inline-item {
     a#remove:hover {
         color: #00ace6 !important;
     } 
+
+@media screen and (max-width: 480px) {
+    html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
