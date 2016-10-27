@@ -27,8 +27,18 @@ body {
     padding: 20px;
 }
 
-#email-body p {
+#email-footer {
+    padding: 0 0 20px 0;
+}
+
+#email-body p,
+#email-footer p {
     color: #a1a1a1;
+}
+
+#email-footer p {
+    font-size: 0.8em;
+    margin: 0;
 }
 
 button.btn {
@@ -39,6 +49,7 @@ button.btn {
     border: none;
     border-radius: 5px;
 }
+
 button.btn:hover  {
     cursor: pointer;
     background-color: #00ace6;
@@ -50,3 +61,40 @@ button.btn:hover  {
     left: 50%;
     transform: translateX(-50%);
 }
+
+#email-footer {
+    text-align: center;
+}
+
+hr {
+    padding: 0;
+    margin: 0px 20px 0px 20px;
+    border-top: 1px solid #d1d1d1 !important;
+}
+
+.divider {
+    color: #a1a1a1;
+}
+
+ul.inline-list {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+li.inline-item {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+    li.inline-item a,
+    a#remove {
+        text-decoration: none;
+        color: #33ccff !important;
+    }
+
+    li.inline-item a:hover,
+    a#remove:hover {
+        color: #00ace6 !important;
+    } 
