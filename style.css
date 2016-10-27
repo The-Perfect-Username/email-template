@@ -1,0 +1,52 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+#email-container {
+    font-family: "Helvetica";
+    background-color: #fff;
+}
+
+#email-header{
+    background-color: #33ccff;
+}
+
+#email-header h2 {
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+#email-body {
+    padding: 20px;
+}
+
+#email-body p {
+    color: #a1a1a1;
+}
+
+button.btn {
+    background-color: #33ccff;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+button.btn:hover  {
+    cursor: pointer;
+    background-color: #00ace6;
+}
+
+.align-centre {
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
