@@ -11,6 +11,8 @@ body {
 #email-container {
     font-family: "Helvetica";
     background-color: #fff;
+    width: 80%;
+    position: absolute !important;
 }
 
 #email-header{
@@ -104,6 +106,10 @@ li.inline-item {
     html {
         width: 100%;
         overflow-x: hidden;
+    }
+    
+    #email-container {
+        width: 90%;
     }
 }
 
